@@ -7,7 +7,28 @@ use float to make something locate itself on the right or left
 
 */
 
-body{
-    padding: 30px;
-    background-color: #ffffff;
+body {
+  background: url("../assets/images/lab1.jpg") no-repeat fixed;
+  background-size: contain;
+
 }
+
+#main-title {
+  color: #FFDE7A;
+  font-family: 'Merriweather Sans', sans-serif;
+  text-align: center;
+  font-size: 2rem;
+  background-color: maroon;
+  border-style: ridge;
+  border-color: black;
+}
+
+
+#pslo {
+  background-color: #d5d6d2;
+  font-family: 'Merriweather Sans', sans-serif;
+  border-style: double;
+  padding: 14px;
+
+}
+
