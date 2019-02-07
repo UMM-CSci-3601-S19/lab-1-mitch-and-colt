@@ -10,4 +10,10 @@ use float to make something locate itself on the right or left
 body{
     padding: 30px;
     background-color: #aaaaaa;
+    filter: sepia(100%);
+    font-family: 'Rye', cursive;
 }
+
+
+
+
