@@ -9,9 +9,11 @@ use float to make something locate itself on the right or left
 
 body {
   background: url("../assets/images/lab1.jpg") no-repeat fixed;
-  background-size: contain;
-
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
 
 #main-title {
   color: #FFDE7A;
