@@ -31,6 +31,16 @@ body {
   font-family: 'Merriweather Sans', sans-serif;
   border-style: double;
   padding: 14px;
+}
 
+.section {
+background-color: rgba(50,50,50,0.6);
+color: rgba(230,230,230,0.75);
+
+}
+
+.section:hover {
+background-color: rgba(50,50,50,0.8);
+transition: all 0.3s ease;
 }
 
