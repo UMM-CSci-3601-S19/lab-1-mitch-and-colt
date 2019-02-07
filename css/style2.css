@@ -20,23 +20,42 @@ body {
   font-family: 'Merriweather Sans', sans-serif;
   text-align: center;
   font-size: 2rem;
-  background-color: maroon;
+  background-color: rgba(50,50,50,0.6);
   border-style: ridge;
-  border-color: black;
+  border-color: rgba(150,150,150,0.6);
+  align: center;
+  align-content: center;
 }
 
 
 #pslo {
-  background-color: #d5d6d2;
-  font-family: 'Merriweather Sans', sans-serif;
-  border-style: double;
-  padding: 14px;
 }
 
-.section {
+.section { /* Example of grouping */
 background-color: rgba(50,50,50,0.6);
 color: rgba(230,230,230,0.75);
+}
 
+
+#faculty-list {
+     padding-left: 0;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap-reverse;
+     margin: auto;
+}
+
+#faculty>ul>li {
+    display: inline-block;
+    font-family: sans-serif;
+    padding: 2%;
+    text-align: center;
+    }
+
+
+img.pic {
+    width: 100%;
+    border: 4px solid #000000;
 }
 
 .section:hover {
