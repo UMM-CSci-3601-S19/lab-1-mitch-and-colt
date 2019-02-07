@@ -22,7 +22,6 @@ body { /* Stylesheet to be graded - 1 */
   background-color: rgba(50,50,50,0.6);
   border-style: ridge;
   border-color: rgba(150,150,150,0.6);
-  align: center;
   align-content: center;
     font-size: 5rem;
 }
@@ -46,9 +45,7 @@ color: rgba(230,230,230,0.75);
      flex-direction: row;
      flex-wrap: wrap;
      margin: auto;
-     align-content: left;
-
-}
+     }
 
 img.pic {
     width: 100%;
