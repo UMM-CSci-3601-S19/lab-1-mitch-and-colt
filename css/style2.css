@@ -7,7 +7,7 @@ use float to make something locate itself on the right or left
 
 */
 
-body {
+body { /* Stylesheet to be graded - 1 */
   background: url("../assets/images/lab1.jpg") no-repeat fixed;
   background-size: cover;
   background-position: center;
@@ -15,51 +15,74 @@ body {
 }
 
 
-#main-title {
+#main-title { /* Stylesheet to be graded - 2 */
   color: #FFDE7A;
   font-family: 'Merriweather Sans', sans-serif;
   text-align: center;
-  font-size: 2rem;
   background-color: rgba(50,50,50,0.6);
   border-style: ridge;
   border-color: rgba(150,150,150,0.6);
   align: center;
   align-content: center;
+    font-size: 5rem;
 }
 
-
-#pslo {
-}
 
 .section { /* Example of grouping */
 background-color: rgba(50,50,50,0.6);
 color: rgba(230,230,230,0.75);
 }
 
+#faculty { /* Example of nesting*/
+    display: flex;
+}
 
-#faculty-list {
+
+#faculty-list { /* Nested */
      padding-left: 0;
      display: flex;
      flex-direction: row;
-     flex-wrap: wrap-reverse;
+     flex-wrap: wrap;
      margin: auto;
+     align-content: left;
+
 }
-
-#faculty>ul>li {
-    display: inline-block;
-    font-family: sans-serif;
-    padding: 2%;
-    text-align: center;
-    }
-
 
 img.pic {
     width: 100%;
-    border: 4px solid #000000;
+    border: 4px solid rgba(230,230,230,0.1);
 }
 
-.section:hover {
+img.pic:hover{ /* Stylesheet to be graded - 3 */
+border: 4px solid rgba(50,0,0,0.8);
+transition: all 0.222s ease;
+}
+
+#faculty>ul>li { /* Nested */
+    display: inline-block;
+    padding-left: 10px;
+    text-align: center;
+
+    }
+
+   .name { /* Stylesheet to be graded - 4 */
+   text-decoration: underline;
+   text-decoration-color: rgb(160,160,160) ;
+   text-decoration-style: dotted;
+   }
+
+
+.section:hover { /* Stylesheet to be graded - 5 */
 background-color: rgba(50,50,50,0.8);
 transition: all 0.3s ease;
 }
 
+#validation {
+background-color: rgba(50,50,50,0.6);
+color: rgba(230,230,230,0.75);
+}
+
+#style {
+background-color: rgba(50,50,50,0.6);
+color: rgba(230,230,230,0.75);
+}
