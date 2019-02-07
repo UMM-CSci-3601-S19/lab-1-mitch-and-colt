@@ -9,11 +9,81 @@ use float to make something locate itself on the right or left
 
 body{
     padding: 30px;
-    background-color: #aaaaaa;
-    filter: sepia(100%);
+    background-color: tan;
     font-family: 'Rye', cursive;
+    filter: sepia(60%);
 }
 
+.faculty-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-title {
+    color: #FFDE7A;
+    text-align: center;
+    font-size: 4rem;
+    background-color: #8b5a2b;
+    border-radius: 25px;
+    filter: drop-shadow(6px 7px 8px beige);
+    text-shadow(6px 7px 8px beige);
+
+}
+
+h1 {
+    color: #FFDE7A;
+}
+
+h2 {
+    color: #FFDE7A;
+}
+
+p1{
+}
+
+.section {
+    color: #FFDE7A;
+    border-radius: 25px;
+    padding: 20px;
+    border: 5px solid;
+    margin: 10px;
+    max-width: 48em;
+    filter: drop-shadow(6px 7px 8px beige);
+
+}
+
+#courses {
+    background-color: #8b5a2b;
+}
+
+#pslo {
+    background-color: #8b5a2b;
+}
+
+#faculty {
+    background-color: #8b5a2b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+img.pic {
+    filter: sepia(100%)
+
+}
+img.pic:hover{
+    filter: drop-shadow(19px 19px 19px white);
+
+}
+
+#faculty>ul>li {
+    display: inline-block;
+    font-family: sans-serif;
+    padding: 30px;
+}
 
 
 
