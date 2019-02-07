@@ -16,7 +16,7 @@ body { /* Stylesheet to be graded - 1 */
 
 
 #main-title { /* Stylesheet to be graded - 2 */
-  color: #FFDE7A;
+  color: silver;
   font-family: 'Merriweather Sans', sans-serif;
   text-align: center;
   background-color: rgba(50,50,50,0.6);
@@ -31,6 +31,8 @@ body { /* Stylesheet to be graded - 1 */
 .section { /* Example of grouping */
 background-color: rgba(50,50,50,0.6);
 color: rgba(230,230,230,0.75);
+ border-style: ridge;
+  border-color: rgba(150,150,150,0.6);
 }
 
 #faculty { /* Example of nesting*/
