@@ -7,7 +7,7 @@ use float to make something locate itself on the right or left
 
 */
 
-body{
+body{ /* Stylesheet to be graded - 1 */
     padding: 30px;
     background-color: tan;
     font-family: 'Rye', cursive;
@@ -21,7 +21,7 @@ body{
   align-items: center;
 }
 
-#main-title {
+#main-title {   /* Stylesheet to be graded - 2 */
     color: #FFDE7A;
     text-align: center;
     font-size: 4rem;
@@ -33,11 +33,14 @@ body{
 }
 
 h1 {
-    color: #FFDE7A;
+    color: #FFDE7A;  /* Stylesheet to be graded - 3 */
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
 }
 
 h2 {
-    color: #FFDE7A;
+    color: #FFDE7A;  /* Stylesheet to be graded - 4 */
+    text-decoration-line: underline;
 }
 
 p1{
@@ -49,17 +52,26 @@ p1{
     padding: 20px;
     border: 5px solid;
     margin: 10px;
-    max-width: 48em;
+    max-width: 30em;
     filter: drop-shadow(6px 7px 8px beige);
-
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     justify-content: space-between;
 }
 
 #courses {
-    background-color: #8b5a2b;
+      background-color: #8b5a2b;
+      flex-direction: column;
+      flex-wrap: wrap;
+      float: right;
 }
 
 #pslo {
     background-color: #8b5a2b;
+        display: flex;
+ flex-wrap: wrap;
+     max-width: 70em;
 }
 
 #faculty {
@@ -68,21 +80,21 @@ p1{
     flex-direction: column;
     justify-content: center;
     align-content: center;
+        max-width: 80em;
 }
 
-img.pic {
+img.pic { /* Stylesheet to be graded - 5 */
     filter: sepia(100%)
 
 }
-img.pic:hover{
+img.pic:hover{ /* Stylesheet to be graded - 6 */
     filter: drop-shadow(19px 19px 19px white);
-
 }
 
 #faculty>ul>li {
     display: inline-block;
-    font-family: sans-serif;
     padding: 30px;
+    text-align: center;
 }
 
 

@@ -35,12 +35,12 @@ color: rgba(230,230,230,0.75);
   border-color: rgba(150,150,150,0.6);
 }
 
-#faculty { /* Example of nesting*/
+#faculty { /* Example of nesting / id  */
     display: flex;
 }
 
 
-#faculty-list { /* Nested */
+#faculty-list { /* Nesting / ID */
      padding-left: 0;
      display: flex;
      flex-direction: row;
